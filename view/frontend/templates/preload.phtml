@@ -1,0 +1,14 @@
+<?php
+/**
+ * Copyright © Landofcoder.com. All rights reserved.
+ * See LICENCE.txt for licence details.
+ */
+/** @var Lof\Lazyload\Block\Preload $block */
+?>
+<script type="text/x-magento-init">
+    {
+        "*": {
+            "Lof_Lazyload/js/preload": <?= /* @noEscape */ $block->getJsConfig() ?>
+        }
+    }
+</script>
